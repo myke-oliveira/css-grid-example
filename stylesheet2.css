@@ -16,8 +16,8 @@ html, body {
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 5px;
 
-	justify-items: center;
-	align-items: center;
+	justify-items: end;
+	align-items: end;
 
 
 }
@@ -26,4 +26,10 @@ html, body {
 	background: #7159c1;
 	width: 50%;
 	height: 50%;
+
+}
+
+.center {
+	justify-self: center;
+	align-self:center;
 }
