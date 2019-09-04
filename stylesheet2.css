@@ -16,7 +16,8 @@ html, body {
 	grid-template-rows: 10px 10px 10px;
 	grid-gap: 5px;
 
-	justify-content: center;
+	justify-content: space-around;
+	align-content: space-around;
 
 }
 
